@@ -79,7 +79,58 @@ footer{}
 /* FOOTER */
 
 /* INICIAL */
-main{}
+main{
+    
+}
+
+.secaoDestaque {
+    background-color: #00043e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.tituloDestaque {
+    font-size: 63px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+.subtituloDestaque {
+    font-size: 21px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+div.secaoDestaqueFormulario > input {
+    font-size: 14px;
+    color: #818181 ;
+    font-family: 'Montserrat';
+    background-color: #f6f6f6;
+    border-radius: 3px 0 0 3px;
+    border-style: hidden;
+    padding: 10px 5px;
+    
+}
+
+div.secaoDestaqueFormulario > button {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    background-color: #007aff;
+    border-radius: 0 3px 3px 0;
+    border-style: hidden;
+    padding: 10px 5px;
+    
+}
+
+
+
 /* INICIAL */
 
 /* EXTRAS */
@@ -97,7 +148,14 @@ main{}
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
+    @media screen and (max-width: 400px) {
+        .secaoDestaque {
+            width: 400px;
+            
+        }
+        
+
+    }
   
     @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
